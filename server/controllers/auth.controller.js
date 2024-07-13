@@ -1,5 +1,6 @@
 const User = require("../models/user.model");
 const bcrypt = require("bcryptjs");
+const generateTokenAndSetCookie = require("../utils/jwtToken");
 
 const signup = async (req, res) => {
     try {
@@ -31,6 +32,7 @@ const signup = async (req, res) => {
         })
 
         if(newUser) {
+            generateTokenAndSetCookie(newUser._id, res);
             
             await newUser.save();
     
