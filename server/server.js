@@ -1,0 +1,1 @@
+console.log("hey buddy let's start to write a code")
