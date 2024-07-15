@@ -1,0 +1,27 @@
+.checkboxes{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.gender-checkboxes{
+    height: 40px;
+}
+
+.checkbox{
+    display: flex;
+    margin-top: 15px;
+}
+
+.checkbox input{
+    width: 40px;
+    cursor: pointer;
+}
+
+.gender-checkboxes .gender-error{
+    font-size: 13px;
+    margin-left: 10px;
+    color: #e63946;
+    margin-top: 3px;
+}

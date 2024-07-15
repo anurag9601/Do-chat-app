@@ -1,0 +1,88 @@
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50%);
+    width: 380px;
+    height: fit-content;
+    padding: 30px 15px;
+    border-radius: 10px;
+    border: 1px solid #979dac;
+    color: #fff;
+}
+
+.login-container form h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login-container form .inputbox{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+
+.login-container form .inputbox p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login-container form .inputbox input{
+    flex: 1;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid #e5e5e5;
+    margin-top: 3px;
+    color: #fff;
+}
+
+.login-container form .inputbox input::placeholder{
+    color: #fff;
+    font-size: 15px;
+}
+
+.login-btn{
+    text-align: center;
+}
+
+.login-btn button{
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .2s;
+}
+
+.login-btn button:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.login-create-account{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.login-create-account:hover{
+    text-decoration: underline;
+}
+
+.login-error{
+    color: #e63946;
+    font-size: 13px;
+    margin-top: 3px;
+}
