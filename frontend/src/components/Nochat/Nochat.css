@@ -1,0 +1,26 @@
+.nochat-container{
+    flex: 1;
+    background-color: #00000093;
+    border: 1px solid #979dac;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e5e5;
+}
+
+.nochat-container .nochat-message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nochat-message h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.nochat-message span {
+    font-size: 70px;
+    margin-top: 10px;
+}

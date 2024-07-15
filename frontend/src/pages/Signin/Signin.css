@@ -1,0 +1,113 @@
+.signup-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50%);
+    width: 380px;
+    height: fit-content;
+    padding: 30px 15px;
+    border-radius: 10px;
+    border: 1px solid #979dac;
+    color: #fff;
+}
+
+.signup-container form .form-head{
+    height: 50px;
+}
+
+.signup-container form .form-head p{
+    margin-top: -15px;
+    font-size: 15px;
+    color: #e63946;
+}
+
+.signup-container form .form-head h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.signup-container form .inputbox{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: center;
+}
+
+.signup-container form .inputbox .signup-error{
+    font-size: 13px;
+    font-weight: 300;
+    color: #e63946;
+}
+
+.signup-container form .inputbox p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.signup-container form .inputbox input{
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid #e5e5e5;
+    margin-top: 3px;
+    color: #fff;
+}
+
+.signup-container form .inputbox input::placeholder{
+    color: #fff;
+    font-size: 15px;
+}
+
+.signup-btn{
+    text-align: center;
+}
+
+.signup-btn button{
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+
+.signup-btn button:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.signup-btn p{
+    font-size: 13px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.signup-btn p:hover{
+    text-decoration: underline;
+}
+
+.password-inputbox{
+    position: relative;
+}
+
+.password-inputbox input{
+    width: 100%;
+}
+
+.password-inputbox span{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
